@@ -228,6 +228,7 @@ class _DeviceScreenState extends State<DeviceScreen> {
               buildMtuTile(context),
               ..._buildServiceTiles(context, widget.device),
             ],
+            //
           ),
         ),
       ),
